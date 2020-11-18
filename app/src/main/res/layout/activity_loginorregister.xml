@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#94ff94"
+    android:background="#98c898"
     tools:context=".Loginorregister">
     <Button
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
         android:padding="20sp"
         android:textSize="30sp"
         android:textAllCaps="false"
-        android:backgroundTint="#400080"
+        android:backgroundTint="#c898c8"
         />
     <Button
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
         android:padding="20sp"
         android:textSize="30sp"
         android:textAllCaps="false"
-        android:backgroundTint="#400080"
+        android:backgroundTint="#c898c8"
         />
 
 </LinearLayout>

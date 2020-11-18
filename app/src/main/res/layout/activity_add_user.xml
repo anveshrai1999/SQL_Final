@@ -55,6 +55,7 @@
         android:onClick="userAdd"
         android:padding="20sp"
         android:text="Add User"
+        android:background="@drawable/rounded_corners"
         android:textSize="20sp"
         android:textAllCaps="false"
         android:backgroundTint="#ea1616"

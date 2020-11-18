@@ -4,60 +4,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffc04d"
     android:orientation="vertical"
-    android:background="#ffa500"
     tools:context=".RegistrationPage">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:textColor="@color/white"
         android:layout_margin="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_horizontal"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="40sp"
-        android:gravity="center_horizontal" />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Username"
-        android:layout_marginTop="50sp"
         android:layout_marginLeft="35sp"
+        android:layout_marginTop="50sp"
         android:layout_marginRight="35sp"
-        android:padding="30sp"
-        android:textSize="20sp"
         android:background="@drawable/edittext_background"
-        android:textColorHint="#4A0224"/>
+        android:hint="Enter Username"
+        android:padding="30sp"
+        android:textColorHint="#4A0224"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/psw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Password"
-        android:inputType="textPassword"
-        android:layout_marginTop="50sp"
         android:layout_marginLeft="35sp"
+        android:layout_marginTop="50sp"
         android:layout_marginRight="35sp"
         android:layout_marginBottom="75sp"
-        android:padding="30sp"
-        android:textSize="20sp"
         android:background="@drawable/edittext_background"
-        android:textColorHint="#4A0224"/>
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="30sp"
+        android:textColorHint="#4A0224"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
-        android:onClick="goToLogin"
         android:layout_margin="30sp"
+        android:backgroundTint="#4d8cff"
+        android:background="@drawable/rounded_corners"
+        android:onClick="goToLogin"
         android:padding="20sp"
-        android:textSize="25sp"
+        android:text="Register"
         android:textAllCaps="false"
-        android:backgroundTint="#ff0000"/>
+        android:textSize="25sp" />
 
 
 </LinearLayout>

@@ -4,38 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#c898be"
     android:orientation="vertical"
-    android:background="#f08080"
     tools:context=".Loginorregister">
+
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login"
         android:id="@+id/login"
-        android:onClick="goToLogin"
-        android:layout_marginTop="200sp"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
-        android:padding="20sp"
-        android:textSize="30sp"
-        android:textAllCaps="false"
-        android:backgroundTint="#80f0f0"
-        android:textColor="@color/black"
-        />
-    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
-        android:id="@+id/register"
-        android:onClick="goToRegister"
-        android:layout_marginTop="50sp"
         android:layout_marginLeft="30sp"
+        android:layout_marginTop="200sp"
         android:layout_marginRight="30sp"
+        android:backgroundTint="#98c8a2"
+        android:onClick="goToLogin"
         android:padding="20sp"
-        android:textSize="30sp"
+        android:text="Login"
         android:textAllCaps="false"
-        android:backgroundTint="#80f0f0"
         android:textColor="@color/black"
-        />
+        android:background="@drawable/rounded_corners"
+        android:fadingEdge="horizontal"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="#98c8a2"
+        android:onClick="goToRegister"
+        android:padding="20sp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_corners"
+        android:textSize="30sp"
+        android:fadingEdge="horizontal"/>
 
 </LinearLayout>
