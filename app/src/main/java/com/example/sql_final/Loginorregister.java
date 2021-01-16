@@ -13,8 +13,9 @@ public class Loginorregister extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loginorregister);
     }
+
     public void goToLogin(View view) {
-        Intent i = new Intent(Loginorregister.this,check_user.class);
+        Intent i = new Intent(Loginorregister.this, check_user.class);
         startActivity(i);
     }
 
